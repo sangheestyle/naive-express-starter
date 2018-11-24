@@ -1,0 +1,32 @@
+{
+  "name": "naive-express-starter",
+  "version": "1.0.0",
+  "description": "Real naive express.js starter",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "jest --forceExit --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangheestyle/practice_request.git"
+  },
+  "keywords": [],
+  "author": "Sanghee Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangheestyle/practice_request/issues"
+  },
+  "homepage": "https://github.com/sangheestyle/practice_request#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
